@@ -2,7 +2,7 @@
 # This is a practice exercise from the book "Python Crash Course"
 # Exercise 10-1
 
-filename = 'learning_python'  # Storing the path to the file in a variable
+filename = 'txt_files/learning_python'  # Storing the path to the file in a variable
 
 with open(filename) as file_object:  # opens the file as 'file_object'
     contents = file_object.read()  # Reads the entirety of the file and stores that in contents
